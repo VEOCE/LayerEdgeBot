@@ -242,7 +242,7 @@ async function autoRegister() {
         return;
     }
 
-    const refCode = await askQuestion("Enter your referral code (example: knYyWnsE): ");
+    const refCode = await askQuestion("Enter your referral code (example: Kx6TpAv9): ");
     if (!refCode) {
         logger.error('Referral code is required');
         return;
